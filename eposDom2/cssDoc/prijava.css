@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-image: url("https://www.eaa106.org/wp-content/uploads/2019/07/napali-coast.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.topnav {
+    overflow: auto;
+    background-color: #356600;
+}
+
+.topnav a {
+    float: left;
+    color: #d9ffb3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #d9ffb3;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #1a3300;
+    color: white;
+}
+
+#prijavaOrg {
+    margin-bottom: 400px;
+    margin-left: 400px;
+    margin-top: 120px;
+    margin-right: 300px;
+    background-color: #d9ffb3;
+    width: 450px;
+    height: 300px;
+    border-radius: 25px;
+}
+@media all and (max-width: 1000px){
+    #prijavaOrg{
+        margin-bottom: 0;
+        margin-left: 50px;
+        margin-top: 0;
+        margin-right: 0;
+        width: 400px;
+        height: 300px;
+    }
+    #Prezime {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    
+    #email {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    
+    #Ime {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    
+    #password {
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    
+    #prijavi {
+        padding: 0;
+    }
+    
+    
+}
+
+#Prezime {
+    margin-bottom: 10px;
+    margin-left: 110px;
+}
+
+#email {
+    margin-bottom: 10px;
+    margin-left: 110px;
+}
+
+#Ime {
+    margin-bottom: 10px;
+    margin-left: 110px;
+}
+
+#password {
+    margin-bottom: 10px;
+    margin-left: 110px;
+}
+
+#prijavi {
+    padding: .5em 1em;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: #9bd65d;
+    position: absolute;
+}
+
