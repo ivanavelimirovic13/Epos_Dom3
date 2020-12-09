@@ -17,12 +17,10 @@ form.addEventListener('submit', (e) => {
     }
 
     if (password.value.length < 6) {
-      var al = window.alert('Šifra je kraća od 6 karaktera.')
-      var openedWindow = window;
-      openedWindow.close();
-    }
-
-    if (messges.length > 0) {
+        var al = window.alert('Šifra je kraća od 6 karaktera.')
+        var opened = window;
+        opened.close();
+    } else if (messges.length > 0) {
         e.preventDefault();
         greska.innerText = messges.join("");
     } else {
